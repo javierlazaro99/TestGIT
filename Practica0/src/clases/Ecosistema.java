@@ -8,6 +8,8 @@ public class Ecosistema {
 
 	private ArrayList<ElementosEcosistema> ListaElementosEco;
 	private static Ecosistema mundo = new Ecosistema();
+	
+	private int numero;
 
 	public Ecosistema() {
 		ListaElementosEco = new ArrayList<ElementosEcosistema>();
