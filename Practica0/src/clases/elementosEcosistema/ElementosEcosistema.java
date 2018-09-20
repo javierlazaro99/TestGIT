@@ -3,6 +3,8 @@ package clases.elementosEcosistema;
 import java.awt.Dimension;
 import java.awt.Point;
 
+import javax.swing.JPanel;
+
 public abstract class ElementosEcosistema {
 
 	protected String nombre;
@@ -38,4 +40,6 @@ public abstract class ElementosEcosistema {
 	public void setDimRectangulo(Dimension dimRectangulo) {
 		this.dimRectangulo = dimRectangulo;
 	}
+	
+	public abstract JPanel getPanel();
 }

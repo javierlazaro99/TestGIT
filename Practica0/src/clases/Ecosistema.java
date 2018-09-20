@@ -2,6 +2,8 @@ package clases;
 
 import java.util.ArrayList;
 
+import javax.swing.JPanel;
+
 import clases.elementosEcosistema.ElementosEcosistema;
 
 public class Ecosistema {
@@ -33,8 +35,6 @@ public class Ecosistema {
 		
 		return (int) Math.sqrt(Math.pow(distX, 2) + Math.pow(distY, 2));
 	}
-	
-	
 	
 	
 }
